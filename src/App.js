@@ -4,6 +4,7 @@ import { Hero } from './components/Ui/Hero';
 import { Thumb } from './components/Ui/Thumb';
 import { Home } from './pages/Home';
 import { Footer } from './components/Layout/Footer';
+import { Link, Outlet } from 'react-router-dom';
 
 function App() {
 	return (
@@ -12,7 +13,8 @@ function App() {
 				<Header />
 				<Hero />
 				<Home>
-					<Thumb />
+					{/* <Thumb /> */}
+					<Outlet />
 				</Home>
 			</div>
 			<Footer />
