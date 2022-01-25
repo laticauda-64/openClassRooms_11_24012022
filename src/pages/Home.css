@@ -1,0 +1,10 @@
+.Home {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	justify-items: center;
+	gap: 50px 50px;
+	margin: 43px 0;
+	padding: 56px 50px;
+	background-color: var(--secondary--color);
+	border-radius: 25px;
+}
