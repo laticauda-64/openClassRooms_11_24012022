@@ -1,6 +1,6 @@
 import './Thumb.css';
 
-export const Thumb = ({ title = 'Titre de la location', imgCover }) => {
+const Thumb = ({ title = 'Titre de la location', imgCover }) => {
 	return (
 		<div className="thumb">
 			{/* <img src={imgCover} alt="Miniature location" /> */}
@@ -8,3 +8,5 @@ export const Thumb = ({ title = 'Titre de la location', imgCover }) => {
 		</div>
 	);
 };
+
+export default Thumb;

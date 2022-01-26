@@ -1,9 +1,8 @@
 import './Home.css';
-import { Thumb } from '../components/Ui/Thumb';
-import { Hero } from '../components/Ui/Hero';
+import { Hero, Thumb } from '../components/Ui';
 import coverImg from '../assets/img/hero_bg.jpg';
 
-export const Home = (props) => {
+const Home = (props) => {
 	return (
 		<>
 			<Hero title="Chez vous, partout et ailleurs" coverImg={coverImg} />
@@ -15,3 +14,5 @@ export const Home = (props) => {
 		</>
 	);
 };
+
+export default Home;

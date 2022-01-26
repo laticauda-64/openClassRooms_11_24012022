@@ -1,6 +1,6 @@
 import './Hero.css';
 
-export const Hero = ({ title = '', coverImg }) => {
+const Hero = ({ title = '', coverImg }) => {
 	return (
 		<div className="hero">
 			<p className="hero__text">{title}</p>
@@ -9,3 +9,5 @@ export const Hero = ({ title = '', coverImg }) => {
 		</div>
 	);
 };
+
+export default Hero;

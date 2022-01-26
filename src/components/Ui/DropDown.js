@@ -2,7 +2,7 @@ import './DropDown.css';
 import { useState } from 'react';
 import arrowUp from '../../assets/img/arrow_up.svg';
 
-export const DropDown = ({ title, content, type = 'large' }) => {
+const DropDown = ({ title, content, type = 'large' }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
@@ -19,3 +19,5 @@ export const DropDown = ({ title, content, type = 'large' }) => {
 		</article>
 	);
 };
+
+export default DropDown;

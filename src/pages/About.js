@@ -1,9 +1,7 @@
-import { Hero } from '../components/Ui/Hero';
+import { DropDown, Hero } from '../components/Ui';
 import './About.css';
 import coverImg from '../assets/img/hero_bg_about_page.jpg';
-import { DropDown } from '../components/Ui/DropDown';
-
-export const About = () => {
+const About = () => {
 	const valeurs = [
 		{
 			title: 'Fiabilité',
@@ -36,3 +34,5 @@ export const About = () => {
 		</div>
 	);
 };
+
+export default About;

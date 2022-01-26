@@ -1,7 +1,7 @@
 import './Error404.css';
 import { Link } from 'react-router-dom';
 
-export const Error404 = () => {
+const Error404 = () => {
 	return (
 		<div className="error404">
 			<span className="error404__bigNum">404</span>
@@ -12,3 +12,5 @@ export const Error404 = () => {
 		</div>
 	);
 };
+
+export default Error404;
