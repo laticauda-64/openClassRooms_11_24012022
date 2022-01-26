@@ -17,6 +17,6 @@
 		"prettier/prettier": "off",
 		"no-unused-vars": "warn",
 		"react/react-in-jsx-scope": "off",
-		"react/prop-types": 1
+		"react/prop-types": 0
 	}
 }

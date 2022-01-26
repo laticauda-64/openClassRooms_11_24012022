@@ -1,0 +1,4 @@
+.App {
+	/* Stick footer always on bottom */
+	min-height: calc(100% - 209px);
+}
