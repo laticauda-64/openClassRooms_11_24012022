@@ -7,7 +7,7 @@ const DropDown = ({ title, content, type = 'large' }) => {
 
 	return (
 		<article
-			className={'dropdown ' + (type === 'large' ? 'large' : 'min') + (isOpen ? '' : ' drop_closed')}
+			className={'dropdown ' + (type === 'large' ? 'large' : 'small') + (isOpen ? '' : ' drop_closed')}
 			onClick={() => {
 				setIsOpen(!isOpen);
 			}}>

@@ -5,6 +5,13 @@
 	color: var(--primary-color);
 	display: flex;
 	align-items: center;
+	margin-top: 25px;
+}
+
+.habitation__infos__topBlock ul {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
 }
 
 .habitation__infos__topBlock__title {
@@ -16,6 +23,11 @@
 	font-size: 18px;
 }
 
+.habitation__infos__topBlock__owner {
+	display: flex;
+	align-items: center;
+}
+
 .habitation__infos__topBlock__ownerAvatar {
 	height: 64px;
 	width: 64px;
@@ -24,11 +36,92 @@
 
 .habitation__infos__topBlock__ownerName {
 	font-size: 18px;
-	margin-left: auto;
 	margin-right: 10px;
+	text-align: right;
+}
+
+.habitation__infos__topBlock__right {
+	margin-left: auto;
 }
 
 .habitation__infos__tagsAndRating {
 	display: flex;
 	align-items: center;
+	margin-top: 20px;
+}
+
+.habitation__infos__main {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.habitation__infos__main .dropdown {
+	flex-basis: 48%;
+}
+
+.habitation__infos__main :last-child {
+	margin-left: auto;
+}
+
+/**
+* Tablets
+*/
+@media screen and (max-width: 1239px) {
+	.habitation__infos__topBlock__title {
+		font-size: 26px;
+	}
+	.habitation__infos__topBlock__location {
+		font-size: 16px;
+	}
+}
+
+/**
+* Mobile
+*/
+@media screen and (max-width: 767px) {
+	.habitation__infos {
+		flex-direction: column;
+		align-items: start;
+		margin-top: 15px;
+	}
+	.habitation__infos__topBlock__title {
+		font-size: 18px;
+	}
+	.habitation__infos__topBlock__location {
+		font-size: 14px;
+	}
+	.habitation__infos__topBlock__ownerName {
+		font-size: 12px;
+	}
+	.habitation__infos__topBlock__ownerAvatar {
+		height: 32px;
+		width: 32px;
+	}
+	.habitation__infos__topBlock__right {
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+	.habitation__infos__topBlock__owner {
+		order: 2;
+		margin-left: auto;
+	}
+	.habitation__infos__tagsAndRating,
+	.habitation__infos__topBlock__right {
+		margin: 0;
+	}
+	.habitation__infos__topBlock__right {
+		margin-top: 10px;
+	}
+	.habitation__infos__topBlock ul {
+		margin-top: 10px;
+		flex-wrap: wrap;
+		gap: 5px 0;
+	}
+	.habitation__infos__main {
+		flex-wrap: wrap;
+	}
+	.habitation__infos__main .dropdown {
+		flex-basis: 100%;
+	}
 }

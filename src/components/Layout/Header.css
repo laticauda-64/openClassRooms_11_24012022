@@ -4,7 +4,6 @@
 	display: flex;
 	align-items: center;
 	margin-top: 40px;
-	margin-bottom: 63px;
 }
 
 .header__links {
@@ -13,4 +12,25 @@
 
 .header__links :first-child {
 	margin-right: 57px;
+}
+
+/**
+* Mobile
+*/
+@media screen and (max-width: 767px) {
+	.header {
+		font-size: 12px;
+	}
+
+	.header__logo {
+		max-height: 40px;
+	}
+
+	.header__links :first-child {
+		margin-right: 10px;
+	}
+
+	.header__links {
+		text-transform: uppercase;
+	}
 }

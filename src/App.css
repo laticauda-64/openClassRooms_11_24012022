@@ -2,3 +2,12 @@
 	/* Stick footer always on bottom */
 	min-height: calc(100% - 209px);
 }
+
+/**
+* Tablets
+*/
+@media screen and (max-width: 1239px) {
+	.App {
+		padding: 0 20px;
+	}
+}

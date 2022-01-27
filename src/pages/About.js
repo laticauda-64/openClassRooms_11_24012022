@@ -27,7 +27,7 @@ const About = () => {
 
 	return (
 		<div className="about">
-			<Hero coverImg={coverImg} />
+			<Hero coverImg={coverImg} className="test" />
 			{valeurs.map((e, i) => (
 				<DropDown key={i} title={e.title} content={e.content} />
 			))}

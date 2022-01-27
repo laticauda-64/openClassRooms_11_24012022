@@ -19,3 +19,30 @@
 	text-decoration: underline;
 	margin-bottom: 192px;
 }
+
+/**
+* Tablets
+*/
+@media screen and (max-width: 1239px) {
+	.error404__text {
+		text-align: center;
+	}
+}
+
+/**
+* Mobile
+*/
+@media screen and (max-width: 767px) {
+	.error404__bigNum {
+		margin-top: 75px;
+		font-size: 96px;
+	}
+
+	.error404__text {
+		font-size: 18px;
+	}
+
+	.error404__link {
+		font-size: 14px;
+	}
+}

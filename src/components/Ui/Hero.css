@@ -7,6 +7,7 @@
 	border-radius: 25px;
 	color: white;
 	position: relative;
+	margin-top: 60px;
 }
 
 .hero__darken-filter {
@@ -33,4 +34,31 @@
 	left: 0;
 	right: 0;
 	border-radius: 25px;
+	height: 100%;
+	object-fit: cover;
+}
+
+/**
+* Mobile
+*/
+@media screen and (max-width: 767px) {
+	.hero {
+		height: 111px;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+
+	.hero__text {
+		padding: 15px;
+	}
+
+	.hero,
+	.hero__darken-filter,
+	.hero__img {
+		border-radius: 10px;
+	}
+
+	.hero_sc {
+		height: 223px;
+	}
 }

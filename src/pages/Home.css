@@ -8,3 +8,25 @@
 	background-color: var(--secondary-color);
 	border-radius: 25px;
 }
+
+/**
+* Tablets
+*/
+@media screen and (max-width: 1239px) {
+	.Home {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+/**
+* Mobile
+*/
+@media screen and (max-width: 767px) {
+	.Home {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+		gap: 20px;
+		padding: 22px 0;
+		background: none;
+		margin: 0 0 25px 0;
+	}
+}
