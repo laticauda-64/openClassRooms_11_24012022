@@ -1,7 +1,7 @@
 import './Tag.css';
 
-const Tag = () => {
-	return <div></div>;
+const Tag = ({ title }) => {
+	return <li className="tag">{title}</li>;
 };
 
 export default Tag;

@@ -51,6 +51,15 @@ a:hover {
 	text-decoration: underline;
 }
 
+li {
+	list-style: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
 #root,
 #__next {
 	isolation: isolate;
