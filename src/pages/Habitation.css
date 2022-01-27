@@ -1,2 +1,34 @@
 .habitation {
 }
+
+.habitation__infos {
+	color: var(--primary-color);
+	display: flex;
+	align-items: center;
+}
+
+.habitation__infos__topBlock__title {
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.habitation__infos__topBlock__location {
+	font-size: 18px;
+}
+
+.habitation__infos__topBlock__ownerAvatar {
+	height: 64px;
+	width: 64px;
+	border-radius: 100%;
+}
+
+.habitation__infos__topBlock__ownerName {
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.habitation__infos__tagsAndRating {
+	display: flex;
+	align-items: center;
+}

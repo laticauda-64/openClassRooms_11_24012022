@@ -12,13 +12,19 @@ const Habitation = () => {
 					<span className="habitation__infos__topBlock__location">Paris, île-de-France</span>
 				</div>
 				<span className="habitation__infos__topBlock__ownerName">Alexandre Dumas</span>
-				<img src="#" alt="Owner avatar" className="habitation__infos__topBlock__ownerAvatar" />
+				<img
+					src="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
+					alt="Owner avatar"
+					className="habitation__infos__topBlock__ownerAvatar"
+				/>
 			</div>
 
-			<div className="habitation__infos__tagsAndRating">
-				<Tag />
-				<Rating />
-			</div>
+			<ul className="habitation__infos__tagsAndRating">
+				<Tag title="Cozy" />
+				<Tag title="Canal" />
+				<Tag title="Paris 10" />
+				<Rating score="3" />
+			</ul>
 
 			<div className="habitation__infos__main">
 				<DropDown />
