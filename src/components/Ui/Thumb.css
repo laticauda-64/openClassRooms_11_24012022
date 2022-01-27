@@ -5,6 +5,17 @@
 	background: var(--primary-color) linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 	display: flex;
 	align-items: flex-end;
+	position: relative;
+}
+
+/* .thumb:hover {
+	cursor: pointer;
+} */
+
+.thumb img {
+	height: 100%;
+	border-radius: 10px;
+	object-fit: cover;
 }
 
 .thumb__title {
@@ -12,6 +23,8 @@
 	font-size: 18px;
 	font-weight: 400;
 	margin: 20px;
+	position: absolute;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 /**

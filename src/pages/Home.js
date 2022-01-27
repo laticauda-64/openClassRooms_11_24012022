@@ -17,7 +17,7 @@ const Home = (props) => {
 			{data && (
 				<div className="Home">
 					{data.map((e) => (
-						<Thumb key={e.id} />
+						<Thumb key={e.id} title={e.title} imgCover={e.cover} />
 					))}
 				</div>
 			)}
