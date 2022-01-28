@@ -11,9 +11,9 @@ ReactDOM.render(
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<App />}>
-					<Route path="logement" element={<Habitation />} />
-					<Route path="about" element={<About />} />
 					<Route index element={<Home />} />
+					<Route path="logement/:id" element={<Habitation />} />
+					<Route path="about" element={<About />} />
 					<Route path="404" element={<Error404 />} />
 					<Route path="*" element={<Error404 />} />
 				</Route>
