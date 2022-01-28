@@ -1,6 +1,6 @@
 import './Header.css';
 import logo from '../../assets/img/logo.svg';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 export const Header = () => {
 	return (
@@ -10,12 +10,12 @@ export const Header = () => {
 			</Link>
 
 			<div className="header__links">
-				<Link to="/" className="link--active">
+				<NavLink to="/" className={({ isActive }) => (isActive ? 'link--active' : '')}>
 					Accueil
-				</Link>
-				<Link to="/about" className="">
+				</NavLink>
+				<NavLink to="/about" className={({ isActive }) => (isActive ? 'link--active' : '')}>
 					A propos
-				</Link>
+				</NavLink>
 			</div>
 		</header>
 	);
