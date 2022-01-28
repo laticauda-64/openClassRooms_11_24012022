@@ -22,7 +22,7 @@ const Habitation = () => {
 			{loading && <Loader />}
 			{habitationInfos && (
 				<section className="habitation">
-					<Gallery pictures={habitationInfos.pictures[0]} />
+					<Gallery pictures={habitationInfos.pictures} />
 
 					<div className="habitation__infos">
 						<div className="habitation__infos__topBlock">
