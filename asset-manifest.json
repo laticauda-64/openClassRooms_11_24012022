@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ybdlassablere_11_24012022/static/css/main.de8ec5db.css",
-    "main.js": "/ybdlassablere_11_24012022/static/js/main.7593f7e4.js",
+    "main.js": "/ybdlassablere_11_24012022/static/js/main.38d61ef9.js",
     "static/media/hero_bg_about_page.jpg": "/ybdlassablere_11_24012022/static/media/hero_bg_about_page.71845b64bb368ca9ffbc.jpg",
     "static/media/hero_bg.jpg": "/ybdlassablere_11_24012022/static/media/hero_bg.106bc2841772e3ceebe2.jpg",
     "static/media/loader.svg": "/ybdlassablere_11_24012022/static/media/loader.1867c9b51268c437b99a6f5fb1b30b6e.svg",
@@ -12,10 +12,10 @@
     "static/media/arrow_up.svg": "/ybdlassablere_11_24012022/static/media/arrow_up.557045ea3cccdf4a6a60a53481c321e2.svg",
     "static/media/arr_left.svg": "/ybdlassablere_11_24012022/static/media/arr_left.19918a1634b1441a25ae.svg",
     "main.de8ec5db.css.map": "/ybdlassablere_11_24012022/static/css/main.de8ec5db.css.map",
-    "main.7593f7e4.js.map": "/ybdlassablere_11_24012022/static/js/main.7593f7e4.js.map"
+    "main.38d61ef9.js.map": "/ybdlassablere_11_24012022/static/js/main.38d61ef9.js.map"
   },
   "entrypoints": [
     "static/css/main.de8ec5db.css",
-    "static/js/main.7593f7e4.js"
+    "static/js/main.38d61ef9.js"
   ]
 }
