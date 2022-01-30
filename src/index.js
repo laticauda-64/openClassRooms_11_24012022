@@ -8,7 +8,7 @@ import { Home, About, Error404, Habitation } from './pages/index';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<HashRouter>
+		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<App />}>
 					<Route index element={<Home />} />
@@ -18,7 +18,7 @@ ReactDOM.render(
 					<Route path="*" element={<Error404 />} />
 				</Route>
 			</Routes>
-		</HashRouter>
+		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById('root')
 );
