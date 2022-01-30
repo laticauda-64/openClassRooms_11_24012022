@@ -1,7 +1,7 @@
 {
 	"name": "kasa",
 	"version": "0.1.0",
-	"homepage": "https://laticauda-64.github.io/ybdlassablere_11_24012022",
+	"homepage": ".",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.1",
