@@ -15,7 +15,7 @@ const DropDown = ({ title, content, type = 'large' }) => {
 				<h3>{title}</h3>
 				<img src={arrowUp} alt="Open/Close dropdown" className={isOpen ? 'arr_down' : ''} />
 			</div>
-			<p className="dropdown__content">{content}</p>
+			<div className="dropdown__content">{content}</div>
 		</article>
 	);
 };

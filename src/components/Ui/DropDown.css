@@ -41,7 +41,7 @@
 }
 
 .small h3,
-.small p {
+.small .dropdown__content {
 	font-size: 18px;
 }
 
