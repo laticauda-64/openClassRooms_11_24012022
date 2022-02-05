@@ -1,13 +1,12 @@
-import { useState } from 'react';
 import { Gallery, Tag, Rating, DropDown, Loader } from '../components/Ui';
 import { useFetch } from '../utils/useFetch';
-import { useParams, useLocation, Navigate, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import './Habitation.css';
+import { Error404 } from '.';
 
 const Habitation = () => {
 	const { data, loading, error } = useFetch(process.env.REACT_APP_FETCH_PATH);
 	let params = useParams();
-	let navigate = useNavigate();
 	let habitationInfos = false;
 
 	if (error) {
@@ -18,7 +17,7 @@ const Habitation = () => {
 		habitationInfos = data.find((e) => e.id === params.id);
 		// If id not found, redirect to 404 page
 		if (!habitationInfos) {
-			navigate('/404');
+			return <Error404 />;
 		}
 	}
 
