@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c2f817c7.css",
-    "main.js": "./static/js/main.d9482186.js",
+    "main.css": "./static/css/main.6e1888dd.css",
+    "main.js": "./static/js/main.0c63dbf1.js",
     "static/media/hero_bg_about_page.jpg": "./static/media/hero_bg_about_page.71845b64bb368ca9ffbc.jpg",
     "static/media/hero_bg.jpg": "./static/media/hero_bg.106bc2841772e3ceebe2.jpg",
     "static/media/loader.svg": "./static/media/loader.1867c9b51268c437b99a6f5fb1b30b6e.svg",
@@ -11,11 +11,11 @@
     "static/media/arr_right.svg": "./static/media/arr_right.fcd8131c4741f9116bc0.svg",
     "static/media/arrow_up.svg": "./static/media/arrow_up.557045ea3cccdf4a6a60a53481c321e2.svg",
     "static/media/arr_left.svg": "./static/media/arr_left.19918a1634b1441a25ae.svg",
-    "main.c2f817c7.css.map": "./static/css/main.c2f817c7.css.map",
-    "main.d9482186.js.map": "./static/js/main.d9482186.js.map"
+    "main.6e1888dd.css.map": "./static/css/main.6e1888dd.css.map",
+    "main.0c63dbf1.js.map": "./static/js/main.0c63dbf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2f817c7.css",
-    "static/js/main.d9482186.js"
+    "static/css/main.6e1888dd.css",
+    "static/js/main.0c63dbf1.js"
   ]
 }
